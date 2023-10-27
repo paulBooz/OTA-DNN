@@ -182,9 +182,9 @@ for iters in range(len(std_noise_vector)):
 make_plot_SNR(test_loss_centralized, test_loss_DOTAE, test_loss_oracle_benchmark, av_received_SNR)
 
 #save data
-#save_as_csv(test_loss_centralized, f'simulation_results/test_loss_centralized_{output_nodes}.csv')
-#save_as_csv(test_loss_DOTAE, f'simulation_results/test_loss_DOTAE_{output_nodes}.csv')
-#save_as_csv(test_loss_oracle_benchmark, 'simulation_results/test_oracle_benchmark.csv')
-save_as_csv(cDNN_loss_vs_epochs, 'simulation_results/cDNN_loss_vs_epochs.csv')
+save_as_csv(test_loss_centralized, f'simulation_results/test_loss_centralized_{output_nodes}.csv')
+save_as_csv(test_loss_DOTAE, f'simulation_results/test_loss_DOTAE_{output_nodes}.csv')
+save_as_csv(test_loss_oracle_benchmark, 'simulation_results/test_oracle_benchmark.csv')
+#save_as_csv(cDNN_loss_vs_epochs, 'simulation_results/cDNN_loss_vs_epochs.csv')
 
 
